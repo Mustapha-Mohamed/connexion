@@ -1,0 +1,35 @@
+body
+
+{background-image: url("https://wallpapercave.com/wp/wp3789078.png");}
+
+.video{
+	display: inline-flex;
+	height: center;
+	width: center;
+	padding-left: 40%;
+	padding-top: 13%;
+	 white-space: pre-line;
+	 max-width: 100%;
+	height: auto;
+}
+
+
+.info{
+	text-align: center;
+	color: white;
+	size: 15%;
+}
+
+
+h2{
+	color: white;
+	text-align: center;
+	background-color: black;
+}
+
+.valide{
+	text-align: center;
+	padding: 1%;
+	color: black;
+}
+

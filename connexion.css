@@ -1,0 +1,73 @@
+body
+
+
+{background-image:url(https://wallpapercave.com/wp/wp2568148.jpg);
+background-size: cover ;
+}
+
+.dbz{background-color: transparent;
+	font-family: cursive;
+	text-align: center;
+	padding: 10%;
+	color: white;
+	text-align :center;
+
+
+}
+
+.chp1{
+	padding: 1%;
+}
+
+.chp2{
+	padding: 1%;
+}
+
+.chp3{
+	padding: 1%;
+
+}
+
+.loup{
+	text-align: center;
+	font-size: 140%;
+	font-style: italic;
+	background-color: black;
+	background-size: 20%;
+	color: white;
+
+}
+
+.chp4{
+	;
+	padding: 7%;
+	background-color:transparent;
+	
+}
+
+
+{background-image: url(http://www.wallpaperhi.com/thumbnails/detail/20111130/o_tekkendr_98_6.jpg);
+background-size: cover;
+}
+
+
+
+.tekk{background-color: transparent;
+	font-family: cursive;
+	text-align: center;
+	padding: 9%;
+	color: white;
+	
+	
+}
+
+}
+input{
+  width: 150px;
+}
+input[type="radio"], input[type="checkbox"]{
+  width: auto;
+}
+input[type="submit"]{
+  width: 100px;
+}
