@@ -1,0 +1,70 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet"  href="connexion.css"/>
+        <title>Inscription</title>
+    </head>
+
+    
+    <body class="inscription">
+      <div id="container2">
+        <form>
+      <fieldset>
+        <h1>Inscription</h1>
+        <label for="id"> nom d'utilisateur :</label></br>
+        <input type="text" placeholder="Entrer le nom d'utilisateur"required/></br>
+
+        <label for="mdp">mot de passe:</label> </br>
+        <input type="password"  placeholder="Entrer le mot de passe"required/></br>
+
+        <label for="confirm_pass">Confirmer mot de passe</label> </br>
+        <input type="password" placeholder=""required/></br>
+
+        <label for="nom">Nom :</label>
+        <input type="text" placeholder="Entrer votre nom"required/></br>
+
+       <label for="nom">Prénom :</label>
+        <input type="text" placeholder="Entrer votre prenom"required/></br>
+
+        <label for="email">Email :</label>
+        <input type="text" id="email" name="email" maxlength="60" required/>
+
+      </fieldset>
+      
+        <label for="age">date de naissance:</label>
+        <input type="date" id="age" name="age" required>
+
+        <label for="phone">Numéro de téléphone:</label>
+        <input type="tel"  id="phone" name="phone" required>
+        
+                  
+            <label for="formulaire">Niveau d'étude :</label>
+             <select id="formulaire" name="formulaire">
+               <optgroup label="Diplome">
+                 <option value="Brevet"> Brevet</option>
+                 <option value="Niveau bac">Niveau Bac</option>
+                 <option value="Bac">Bac</option>
+                 <option value="Licence">Licence</option>  
+                </optgroup> 
+
+             <input type="radio" id="h" name="sexe" value="homme">
+             <label for="h">Homme</label>
+             <input type="radio" id="f" name="sexe" value="femme">
+             <label for="f">Femme</label>
+
+             <label for="Hobbie"> Hobbie :</label>
+             <select id="Hobbie" name="Hobbie">
+               <optgroup label="Hobbie">
+                 <option value="lire"> Lire</option>
+                 <option value=" sortir">Sortir</option>
+                 <option value="sport">Sport</option>
+                 <option value="coder">Coder</option>
+                </optgroup>
+
+                <a href="connexion.html" target="_blank"> <input type="submit" value="Valider"> <a>
+             
+            </div>
+          </form>
+             </select>
+             </body>
+             </html>
